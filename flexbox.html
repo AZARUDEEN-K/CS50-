@@ -1,0 +1,49 @@
+<!DOCKTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width-device-width, initial-scale-1.0">
+		<title>HELLO!</title>
+        <style>
+    
+			@media(min-width: 600px) {
+				body {
+					background-color: springgreen;
+				}
+			}
+			@media (max-width: 599px) {
+				body {
+				background-color: grey;
+				}
+			}
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            #container > div {
+                background-color: springgreen;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+        </style>
+	</head>
+	<body style="text-align: center;">
+    	<div id="container">
+            <img src="AZ.jpg" alt="logo" width="300">
+        </div>
+        <div><h1>HELLO WORLD!</h1> 
+    		<h2>"This is the heading"</h2>
+            <ol style="text-align: left;">
+                <li>list item one</li>
+                <li>list item two</li>
+                <ul>
+                    <li>sublist item one</li>
+                    <li>sublist item two</li>
+                </ul>
+                <li>list item three</li>
+            </ol>
+        </div>
+	</body>
+</html>
